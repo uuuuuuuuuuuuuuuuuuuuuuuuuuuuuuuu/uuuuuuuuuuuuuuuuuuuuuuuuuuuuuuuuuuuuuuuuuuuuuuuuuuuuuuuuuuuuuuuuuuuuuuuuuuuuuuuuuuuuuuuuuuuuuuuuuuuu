@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu)
+message("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu")
+add_executable(uuuuu u.c)
+add_custom_command(TARGET uuuuu POST_BUILD COMMAND ${CMAKE_CURRENT_BINARY_DIR}/uuuuu)
+
