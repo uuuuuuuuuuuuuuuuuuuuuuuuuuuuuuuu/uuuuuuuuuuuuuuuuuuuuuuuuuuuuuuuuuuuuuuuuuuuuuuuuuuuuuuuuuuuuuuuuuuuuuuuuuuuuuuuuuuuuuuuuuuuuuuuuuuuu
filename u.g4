@@ -1,0 +1,3 @@
+grammar u;
+
+u: 'u'+;

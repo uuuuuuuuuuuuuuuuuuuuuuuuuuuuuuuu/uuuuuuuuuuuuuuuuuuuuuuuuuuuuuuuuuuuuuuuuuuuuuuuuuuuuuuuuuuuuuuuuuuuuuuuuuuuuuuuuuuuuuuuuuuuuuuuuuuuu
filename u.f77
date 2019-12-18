@@ -1,0 +1,3 @@
+PROGRAM U
+PRINT*, 'u'
+END
