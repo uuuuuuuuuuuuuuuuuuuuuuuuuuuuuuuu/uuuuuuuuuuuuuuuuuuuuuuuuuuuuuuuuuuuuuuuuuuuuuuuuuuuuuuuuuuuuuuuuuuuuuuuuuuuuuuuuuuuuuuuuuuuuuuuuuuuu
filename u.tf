@@ -1,0 +1,3 @@
+variable "u" {
+  default = "u"
+}
