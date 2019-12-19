@@ -8,7 +8,7 @@
 #define uuuuuuu (
 #define uuuuuuuu )
 #define uuuuuuuuu while
-#define uuuuuuuuuu tr
+#define uuuuuuuuuu true
 #define uuuuuuuuuuu {
 #define uuuuuuuuuuuu }
 #define uuuuuuuuuuuuu cout
