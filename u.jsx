@@ -1,33 +1,16 @@
-import React, { Component } from 'react';
+import { useState as u, useEffect as uu } from "react";
 
-class U extends Component {
-  constructor(props) {
-    super(props);
+const uuu = setInterval, uuuu = clearInterval, uuuuu = "u", uuuuuu = 10;
 
-    this.state = {
-      u: 0,
-    };
+export function U() {
+  const [uuuuuuu, uuuuuuuu] = u(uuuuu);
+  uu(() => {
+    const uuuuuuuuu = uuu(() => {
+      uuuuuuuu(uuuuuuu + uuuuu);
+    }, uuuuuu);
 
-    this.timer = this.timer.bind(this);
-  }
+    return () => uuuu(uuuuuuuuu);
+  }, [uuuuuuu]);
 
-  componentDidMount() {
-    const uId = setInterval(this.timer, 10);
-    this.setState({ uInterval: uId });
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.state.uInterval);
-  }
-
-  timer() {
-    this.setState({ u: this.state.u + 1 });
-  }
-
-  render() {
-    const u = Array(this.state.u).fill(<p>u</p>);
-    return u;
-  }
+  return uuuuuuu;
 }
-
-export default U;
